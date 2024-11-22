@@ -1,7 +1,7 @@
 terraform {
  
   backend "s3" {
-    bucket = "jenkins-server"
+    bucket = "kubectlserver"
     region = "ap-south-1"
     key = "terraform.tfstate"
   }
